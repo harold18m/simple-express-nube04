@@ -1,5 +1,4 @@
-FROM node:18-alpine
-
+FROM node:18
 RUN git clone "https://github.com/harold18m/simple-express-nube04.git" app
 
 WORKDIR /app
