@@ -6,6 +6,8 @@ WORKDIR /app
 
 RUN npm install
 
+EXPOSE 11600
+
 CMD ["npm", "start"]
 
 LABEL name="simple-express-nube04"
