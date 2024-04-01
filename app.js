@@ -21,6 +21,6 @@ app.get('/productos', (req, res) => {
   res.json(productos);
 });
 
-app.listen(3000, () => {
-  console.log('Servidor funcionando en el puerto 3000');
+app.listen(11600, () => {
+  console.log('Servidor funcionando en el puerto 11600');
 });
