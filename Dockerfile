@@ -1,11 +1,11 @@
 FROM node:18-alpine
 
-WORKDIR /app
+RUN git clone https://github.com/harold18m/simple-express-nube04.git app
 
-COPY package.json .
+WORKDIR /app
 
 RUN npm install
 
-COPY . .
-
 CMD ["npm", "start"]
+
+LABEL name="simple-express-nube04"
